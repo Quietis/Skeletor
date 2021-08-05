@@ -89,12 +89,18 @@ main {
 }
 
 .solutions {
+  background-color: green;
+  width: 100vw;
+  height: fit-content;
+}
+
+#solutions_img {
   background-color: yellow;
   width: 100vw;
   height: fit-content;
 }
 
-.intro_solutions {
+.intro_sol {
   background-color: black; /* text is black */
   width: 60vw;
   height: 40vh;
@@ -108,4 +114,38 @@ main {
   height: 50vh;
   margin: auto;
   margin-top: 5vh;
+}
+
+.conclusion_sol {
+  background-color: green;
+  margin-top: 5vh;
+  width: 100vw;
+  height: fit-content;
+}
+
+#our_sol {
+  background-color: black;
+  margin: auto;
+  text-align: center;
+  width: 60vw;
+  height:10vh;
+}
+
+.boxes {
+  background-color: red;
+  margin: auto;
+  padding-left: 1%;
+  padding-right: 1%;
+  width: 60vw;
+  height: 40vh;
+}
+
+.sol_box {
+  background-color: grey; /* boxes are aslo grey */
+  width: 17vw;
+  height: 40vh;
+  margin: auto;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+  display: inline-block;
 }
