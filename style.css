@@ -9,6 +9,8 @@ body {
 }
 
 header {
+  position: absolute;
+  transform: translate(5vw, 0vh);
   background-color: blue;
   margin: auto;
   width: 90vw;
@@ -26,4 +28,41 @@ header {
   text-align: center;
   color: white;
   background-color: grey;
+}
+
+.presentation_box {
+
+}
+
+.presentation_img {
+  background-color: yellow;
+  margin: auto;
+  width: 100vw;
+  height: 60vh;
+  border-radius: 30%;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.partners_section {
+  background-color: green;
+  margin: auto;
+  width: 60vw;
+  height: 40vh;
+}
+
+.intro_partners {
+  background-color: black;
+  width: 25vw;
+  height: 10vh;
+  margin: auto;
+  margin-top: 10vh;
+}
+
+.slide_partners {
+  background-color: white;
+  width: 30vw;
+  height: 15vh;
+  margin: auto;
+  margin-top: 10vh;
 }
