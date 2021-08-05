@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* overflow-x: hidden; */
 }
 
 body {
@@ -11,7 +12,7 @@ body {
 header {
   position: absolute;
   transform: translate(5vw, 0vh);
-  background-color: blue;
+  background-color: blue; /* header and footer are blue */
   margin: auto;
   width: 90vw;
   height: 10vh;
@@ -27,7 +28,7 @@ header {
   width: 9.65%;
   text-align: center;
   color: white;
-  background-color: grey;
+  background-color: grey; /* buttons are grey */
 }
 
 .presentation_box {
@@ -35,7 +36,7 @@ header {
 }
 
 .presentation_img {
-  background-color: yellow;
+  background-color: yellow; /* background images are yellow */
   margin: auto;
   width: 100vw;
   height: 60vh;
@@ -44,15 +45,31 @@ header {
   border-top-right-radius: 0;
 }
 
+.intro_presentations {
+  background-color: black; /* text is black */
+  width: 60vw;
+  height: 30vh;
+  margin: auto;
+  transform: translate(0%,40%);
+}
+
+.buttons_presentation {
+  background-color: grey;
+  width: 25vw;
+  height: 10vh;
+  margin: auto;
+  transform: translate(-70%,130%);
+}
+
 .partners_section {
-  background-color: green;
+  background-color: green; /* sections are green */
   margin: auto;
   width: 60vw;
   height: 40vh;
 }
 
 .intro_partners {
-  background-color: black;
+  background-color: black; /* text is black */
   width: 25vw;
   height: 10vh;
   margin: auto;
@@ -60,9 +77,35 @@ header {
 }
 
 .slide_partners {
-  background-color: white;
+  background-color: white; /* sliding things are white */
   width: 30vw;
   height: 15vh;
   margin: auto;
   margin-top: 10vh;
+}
+
+main {
+  margin: auto;
+}
+
+.solutions {
+  background-color: yellow;
+  width: 100vw;
+  height: fit-content;
+}
+
+.intro_solutions {
+  background-color: black; /* text is black */
+  width: 60vw;
+  height: 40vh;
+  margin: auto;
+  margin-top: 10vh;
+}
+
+#video_pres {
+  background-color: violet; /* videos are violet */
+  width: 60vw;
+  height: 50vh;
+  margin: auto;
+  margin-top: 5vh;
 }
