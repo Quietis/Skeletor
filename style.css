@@ -13,4 +13,17 @@ header {
   margin: auto;
   width: 90vw;
   height: 10vh;
+  border-radius: 5px;
+  margin-top: 0;
+  padding-left: 1.5%;
+  padding-right: 1.5%;
+}
+
+.nav_button {
+  display: inline-block;
+  height: 100%;
+  width: 9.65%;
+  text-align: center;
+  color: white;
+  background-color: grey;
 }
