@@ -189,3 +189,102 @@ main {
   height: 20vh;
   margin: auto;
 }
+
+.free_trial_banner {
+  background-color: orange; /* banners are orange */
+  height: 25vh;
+  width: auto;
+  margin: auto;
+  margin-top: 10vh;
+}
+
+.support {
+  background-color: green;
+  width: 100vw;
+  height: fit-content;
+}
+
+.sup_text {
+  background-color: black;
+  margin: auto;
+  display: inline-block;
+  width: 50vw;
+  height: 40vh;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  margin-left: 5vw;
+}
+
+.sup_img {
+  background-color: yellow;
+  display: inline-block;
+  width: 40vw;
+  height: 60vh;
+}
+
+.opinions {
+  background-color: green;
+  width: 100vw;
+  height: fit-content;
+  margin-top: 10vh;
+}
+
+.opi_text {
+  background-color: black;
+  height: 18vh;
+  width: 55vw;
+  margin: auto;
+}
+
+.opi_slide {
+  background-color: white;
+  height: 55vh;
+  margin: auto;
+}
+
+.slider {
+  background-color: red;
+  margin: auto;
+  height: 100%;
+  width: 80vw;
+}
+
+.opi_box {
+  background-color: grey;
+  margin: auto;
+  width: 30vw;
+  height: 100%;
+  display: inline-block;
+  margin-left: 6%;
+  margin-right: 6%;
+}
+
+footer {
+  background-color: blue;
+  height: 55vh;
+  margin: auto;
+  margin-top: 10vh;
+}
+
+.contacts {
+  background-color: black;
+  display: inline-block;
+  margin: auto;
+  margin-left: 10%;
+  margin-right: 3%;
+  margin-top: 1.5%;
+  margin-bottom: 1.5%;
+  height: 50vh;
+  width: 20vw;
+}
+
+.usef_link {
+  background-color: brown; /* links are brown */
+  display: inline-block;
+  margin: auto;
+  margin-top: 1.5%;
+  margin-bottom: 1.5%;
+  margin-right: 10vw;
+  height: 50vh;
+  width: 55vw;
+}
